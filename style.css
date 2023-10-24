@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Adjust the total width as needed */
+    border: 1px solid #333; /* Optional: add a border to the container */
+}
+
+.gridSquare {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    border: 1px solid #ccc; /* Optional: add a border to each square */
+    box-sizing: border-box;
+    transition: background-color 0.3s; /* Add transition for a smooth color change */
+}
+
+.gridSquare:hover {
+    background-color: blue;
+}
+#newGridButton {
+    margin-bottom: 10px;
+}
