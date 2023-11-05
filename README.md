@@ -1,2 +1,0 @@
-# EtchSketch
-etching and sketching
